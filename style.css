@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,900;1,300;1,400;1,500;1,600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgb(0, 0, 0, 0.1);
+}
+
+.left-side {
+    position: relative;
+    width: 100%;
+    background: #b825b1;
+    padding: 40px;
+}
+
+.profileText {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+
+}
+
+.profileText .image {
+    
+    width: 250px;
+    height: 250px;
+    /* border-radius: 50%; */
+    overflow: hidden;
+    filter: saturate(100%);
+}
+
+.profileText .image.img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.profileText h2 {
+    color: #fff;
+    font-size: 1.1em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+
+}
+
+.profileText h2 span {
+    font-size: 0.8em;
+
+}
+
+.contactInfo {
+    width: 100%;
+    font-size: 1em;
+}
+
+
+.titles.title-s.title6{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: white;
+}
+.contactInfo ul li span{
+   font-weight: 300;
+   
+}
+
+.Idiomas{
+    width: 100%;
+    font-size: 1em;
+}
+
+
+
+.right-side {
+    position: relative;
+    background: white;
+    padding: 60px;
+    text-align: center;  
+}
+
+
+ .title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #010101;
+  }
+  .title-{
+    font-size: 25px;
+    color: #060606;
+
+}
+  .title2 {
+    font-size: 18px;
+    color: #0a0a0a;
+  }
+  .about p {
+    font-size: 16px;
+    color: #070707;
+    line-height: 1.5;
+  }
+  .title2,
+  .title3,
+  .title4 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+  }
+  
+  li {
+    font-size: 16px;
+    color: #020202;
+    margin-bottom: 5px;
+  }
+  
+  .about h2.title- {
+    margin-bottom: 30px; 
+  }
+  .about p {
+    margin-bottom: 30px; 
+    
+  }
+  
+  .about .title2 {
+    margin-top: 40px;
+  }
+  li{
+    text-align: left;
+  }
